@@ -1,0 +1,31 @@
+{
+  "name": "jd-seckill-scraper",
+  "version": "2.1.0",
+  "description": "京东联盟秒杀专区数据采集工具 - 支持自定义存储路径",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "scrape": "node scraper.js",
+    "build": "pkg scraper.js --targets node18-win-x64 --output dist/京东联盟秒杀采集工具.exe",
+    "build-all": "pkg scraper.js --targets node18-win-x64,node18-macos-x64,node18-linux-x64"
+  },
+  "keywords": [
+    "jd",
+    "scraper",
+    "crawler",
+    "seckill"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^21.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ],
+    "assets": [],
+    "outputPath": "dist"
+  }
+}
