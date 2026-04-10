@@ -1,0 +1,13 @@
+{
+  "name": "itf-energy-scraper",
+  "version": "1.0.0",
+  "description": "Scrape ITF Energy projects data",
+  "main": "scrape/scrape-all.js",
+  "scripts": {
+    "scrape": "node scrape/scrape-all.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "xlsx": "^0.18.5"
+  }
+}
