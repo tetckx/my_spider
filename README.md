@@ -24,7 +24,7 @@
 
 | 序号 | 项目名称 | 技术难度 | 核心亮点 | 技术栈 |
 |:---:|:---|:---:|---|:---|
-| 01 | **ITF 能源项目数据采集** | ⭐ | 动态渲染 + 翻页遍历，香港政府公开数据 | Playwright、BeautifulSoup、CSV |
+| 01 | **ITF 能源项目数据采集** | ⭐⭐ | 动态渲染 + 翻页遍历，香港政府公开数据 | Playwright、BeautifulSoup、CSV |
 | 02 | **票星球演唱会信息抓取** | ⭐⭐⭐ | 反检测 + 代理池 + 增量采集，演出票务平台 | Playwright、Stealth.js、Pandas、MySQL |
 | 03 | **京东联盟秒杀数据采集** | ⭐⭐⭐ | 突破京东高难度反爬，成功率 98.9%，零 IP 封禁 | Playwright、CDP 接管、MongoDB、代理集群 |
 
